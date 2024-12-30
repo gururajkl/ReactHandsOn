@@ -1,0 +1,4 @@
+In React, the render() method of a class component is called in the following scenarios:
+
+1. When setState is Called
+2. When Props Change

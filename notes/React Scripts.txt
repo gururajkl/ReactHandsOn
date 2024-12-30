@@ -1,0 +1,7 @@
+The 'react-scripts start' command is part of the Create React App (CRA) ecosystem and is used to start a development server for your React application.
+
+The 'react-scripts build' command is used to create a production-ready build of your React application. This process prepares your app for deployment by optimizing it for performance and minimizing its size.
+
+The 'react-scripts test' command runs tests in your React project using Jest, a JavaScript testing framework that comes preconfigured with Create React App (CRA).
+
+The 'react-scripts eject' command is used to expose the full configuration files (e.g., Webpack, Babel, ESLint, etc.) that Create React App (CRA) abstracts.

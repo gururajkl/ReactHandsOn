@@ -1,0 +1,13 @@
+Imperative: You manually write code to manipulate the DOM, specifying exactly what needs to be changed and how.
+For example, you might directly use methods like document.createElement(), appendChild(), or modify DOM properties like innerHTML or style.
+
+Declarative: You define the desired state of the UI, and a library/framework (e.g., React, Vue, Angular) handles the updates to the DOM for you.
+You don’t directly manipulate the DOM; instead, you work with abstractions like components or templates.
+
+In React, components are essentially functions that return what you want to display in the UI. These functions describe the structure of the UI using JSX (JavaScript XML), a syntax extension for JavaScript that looks similar to HTML.
+
+In React 
+* Don't touch the DOM, react will do it.
+* Build websites like Lego blocks.
+* Unidirectional data flow, one way data flow.
+* It's just UI and the rest is up to you.

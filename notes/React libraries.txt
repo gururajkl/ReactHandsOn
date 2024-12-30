@@ -1,0 +1,18 @@
+React is a library and it's not framework.
+
+Library - A collection of reusable tools, utilities, or functions that developers can use to perform specific tasks.
+You call the library to use its tools when and how you want.
+
+Framework - A complete, opinionated environment that provides all the tools, conventions, and structure required to build an application.
+The framework calls your code as part of its lifecycle. You plug your logic into the framework.
+
+* As react is a library we have different library for each platform. (react component will be same for each platform but it's rendering will be changed for each platform application)
+* The core architecture will be same all the platform library of react.
+
+* React Native - For Mobile Applications
+* React (Core) - For Web Applications
+* React 360/React VR - For Virtual Reality and 3D Applications
+* React Desktop - For Desktop Applications
+* React Blessed - a library that allows you to use React to build command-line (CLI) applications with blessed.
+
+Across all these platforms, the React core (the blueprint) remains the same, and only the rendering logic changes based on the platform.

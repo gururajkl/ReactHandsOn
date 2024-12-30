@@ -1,0 +1,4 @@
+* If we use npx (Node Package Executor) instead of npm no need to install any anything
+
+When you use npx, it downloads and executes the package temporarily for that single command. Once the command is done, 
+the package is removed from your system (unless it's already installed globally or locally in the project).
