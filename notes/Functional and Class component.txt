@@ -1,0 +1,5 @@
+Functional components in React do not have traditional lifecycle methods like class components (e.g., componentDidMount, componentDidUpdate, componentWillUnmount).
+
+* functional components in React essentially run from top to bottom
+
+* In functional components it get props from parameter and we can use that inside the function
