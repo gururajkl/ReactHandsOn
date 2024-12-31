@@ -8,8 +8,6 @@ const App = () => {
   const [monsters, setMonsters] = useState([]);
   const [filteredMonster, setFilteredMonster] = useState(monsters);
 
-  console.log("render");
-
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => response.json())
