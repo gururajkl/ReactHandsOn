@@ -16,6 +16,7 @@ const Navigation = () => {
           </Link>
         </div>
       </div>
+      {/* This is the outlet for the nested routes, used to display the child elements */}
       <Outlet />
     </Fragment>
   );
