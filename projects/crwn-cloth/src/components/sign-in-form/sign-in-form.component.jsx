@@ -28,6 +28,7 @@ const SignInForm = () => {
   const signinWithGoogle = async () => {
     try {
       const { user } = await signInWithGooglePopUp();
+      setCurrentUser(user);
       await createUserDocumentFromAuth(user);
     } catch (error) {
       console.error("Error signing in with Google", error.message);
