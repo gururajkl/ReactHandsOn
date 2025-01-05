@@ -4,9 +4,13 @@ import { ReactComponent as CrwnLogo } from "../../assests/crown.svg";
 import "./navigation.styles.scss";
 import { UserContext } from "../../context/user.context";
 import { signOutAuthUser } from "../../utils/firebase/firebase.utils";
+import CartIcon from "../../components/cart-icon/cart-icon.component";
+import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component";
+import { CartContext } from "../../context/cart.context";
 
 const Navigation = () => {
   const { currentUser } = useContext(UserContext);
+  const { isCartOpen, setIsCartOpen } = useContext(CartContext);
 
   return (
     <Fragment>
@@ -27,7 +31,9 @@ const Navigation = () => {
               SIGN IN
             </Link>
           )}
+          <CartIcon />
         </div>
+        {isCartOpen && <CartDropdown />}
       </div>
       {/* This is the outlet for the nested routes, used to display the child elements */}
       <Outlet />
